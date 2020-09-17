@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: npwhite/multi-client:v6
+          image: npwhite/multi-client
           ports:
             # this is the port that will be mapped to the multi client image
             - containerPort: 3000
