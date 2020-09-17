@@ -18,7 +18,7 @@ before_install:
   - docker build -t npwhite/react-test -f ./client/Dockerfile.dev ./client
 
 script:
-  - docker run -e CI=true npwhite/docker-react npm test
+  - docker run -e CI=true npwhite/react-test npm test
 
 deploy:
   provider: script
